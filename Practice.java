@@ -1,4 +1,5 @@
 import java.util.*;
+import java.util.function.Function;
 import java.util.stream.Collectors;
 
 class Practice{
@@ -25,5 +26,13 @@ class Practice{
         List<String> topK = wordFreqCount.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).limit(k).map(Map.Entry::getKey).collect(Collectors.toList());
 
         return topK;
+    }
+
+    public int sumOfUnique(List<Integer> arr){
+        int sum = 0;
+
+        sum = arr.stream().collect(Collectors.groupingBy(Function.identity(), Collectors.counting())).entrySet().stream().filter(entry -> entry.getValue() == 1).mapToInt(Map.Entry::getKey).sum();
+
+        return sum;
     }
 }
