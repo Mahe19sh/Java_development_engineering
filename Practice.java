@@ -16,6 +16,14 @@ class Practice{
     }
 
     public List<String> topKFreq(String[] input, int k){
-        
+        Map<String, Integer> wordFreqCount = new LinkedHashMap<>();
+
+        for(String word : input){
+            wordFreqCount.put(word, wordFreqCount.getOrDefault(word, 0) + 1);
+        }
+
+        List<String> topK = wordFreqCount.entrySet().stream().sorted(Map.Entry.comparingByValue(Comparator.reverseOrder())).limit(k).map(Map.Entry::getKey).collect(Collectors.toList());
+
+        return topK;
     }
 }
