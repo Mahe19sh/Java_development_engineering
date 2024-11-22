@@ -1,3 +1,5 @@
+import Core_Java.Basics.HelloWorld;
+
 public class Main {
     /* day -02 (19/11/24) -
      * Topics : 
@@ -5,7 +7,8 @@ public class Main {
      * Polymorphism : 
      * - 
      */
-   public static void main(String[] args){
+  public static void main(String[] args){
+    HelloWorld h = new HelloWorld();
 
-   } 
+  } 
 }
