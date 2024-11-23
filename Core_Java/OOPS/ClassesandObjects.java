@@ -36,5 +36,27 @@ public class ClassesandObjects {
         System.out.println("This is a method in OOPS terms it is a behavior of the object or state of object");
     }
 
+    /* The 'this' keyword can be used in 5 main ways:
+     * - Used to differentiate between instance variables and local variables when they have the same name.
+           class Car {
+                String model;
+    
+                Car(String model) {
+                this.model = model;  // Refers to the instance variable
+                }
+            }
+        - Used to call another method within the same class.
+            class Car {
+                void displayModel() {
+                System.out.println("Car model displayed");
+                }
+    
+                void start() {
+                this.displayModel();  // Calls displayModel() method
+                }
+            }
+        - 
+     */
+
 }
 
