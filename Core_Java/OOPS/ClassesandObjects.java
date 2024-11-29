@@ -55,7 +55,33 @@ public class ClassesandObjects {
                 this.displayModel();  // Calls displayModel() method
                 }
             }
+        - Used to call another constructor of the same class (constructor chaining).
+            class Car{
+                String Model;
+                int Speed;
+
+                Car(){
+                    this("Unknown");
+                }
+
+                Car(String Model){
+                    this.Model = Model;
+                }
+            }
+        - Used to pass the current object as an argument in a method or constructor call.
+            class Car{
+                String model;
+
+                void printdetails(Car Obj2){
+                    System.out.println("print model");
+                }
+
+                void start(){
+                    printdetails(this);
+                }
+            }
         - 
+
      */
 
 }
