@@ -38,4 +38,10 @@ class Practice{
 
         return sum;
     }
+
+    /*Executor Service in Java : 
+     * ExecutorService is part of the java.util.concurrent package and provides a high-level framework for managing and controlling threads. 
+     * It abstracts the complexity of thread creation, management, and execution, offering a more robust and scalable alternative to manually managing threads using the Thread class.
+     * 
+     */
 }
