@@ -2,7 +2,7 @@ import java.util.*;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 
-class Practice{
+class streamsAPI{
 
     // First Non_repeated character in a string using streamsAPI.
     public Character firstUniqueCharacter(String input){
