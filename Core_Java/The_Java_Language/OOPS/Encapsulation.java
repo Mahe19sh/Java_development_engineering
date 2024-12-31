@@ -1,4 +1,4 @@
-package Core_Java.OOPS;
+package The_Java_Language.OOPS;
 
 public class Encapsulation {
     

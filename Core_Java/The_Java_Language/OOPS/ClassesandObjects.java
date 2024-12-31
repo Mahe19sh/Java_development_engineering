@@ -1,4 +1,4 @@
-package Core_Java.OOPS;
+package The_Java_Language.OOPS;
 
 public class ClassesandObjects {
     //A class is a blueprint or prototype from which objects are created. It defines the structure (fields/variables) and behavior (methods) that the objects of the class will have.

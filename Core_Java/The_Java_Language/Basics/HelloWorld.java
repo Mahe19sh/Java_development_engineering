@@ -1,4 +1,4 @@
-package Core_Java.Basics;
+package The_Java_Language.Basics;
 
 public class HelloWorld {
     public void HelloWorld(){

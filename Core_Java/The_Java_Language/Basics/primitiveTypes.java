@@ -1,4 +1,4 @@
-package Core_Java.The_Java_Language.Basics;
+package The_Java_Language.Basics;
 
 public class primitiveTypes {
     /*
