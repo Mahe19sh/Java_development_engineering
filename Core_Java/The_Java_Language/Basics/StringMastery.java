@@ -22,4 +22,20 @@ class StringMastery{
      * --------------------------------------------------------------------------------
      * 
      */
+    String str1 = "Hello";
+    String str2 = "Hello";
+
+    //------------------------------Key methods of string class grouped by functionality------------------------------------
+    //Character retrieval
+    public void charRetr(int index){
+        char idx_val = str1.charAt(index);
+        int unicode_val = str1.codePointAt(index);
+    }
+
+    //Length of given string
+    public int Length(){
+        return str1.length();
+    }
+
+    
 }
