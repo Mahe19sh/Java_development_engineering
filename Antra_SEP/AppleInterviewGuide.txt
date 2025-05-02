@@ -1,0 +1,342 @@
+Apple-1: 
+
+Anna Xu - Aug/10/2023 - Apple  
+1. self intro && previous project 
+2. how many services in your project 
+3. how do services communicate each other 
+4. how does kafka work 
+5. if message is too big, 10MB how do we send message to consumer 
+6. how did you deploy application 
+7. ci/cd pipeline in your last project 
+8. which collection is your favorite  
+9. diff set and map 
+10. if you want sorted data, which will you use 
+
+Apple - 2:
+
+1. self intro && previous project 
+2. If i give you a 5GB file, it contains json data line by line.  
+How will you insert data into mongodb  
+Tell me all your approaches.  
+3. coding1: convert [1, 2, 3, 4, 5] to [5, 1, 4, 2, 3] 
+4. coding2: verify parentheses 
+
+Apple-3:
+
+1. self intro && previous project 
+2. Coding1 
+You are given pairs of student ID and course name, and return the shared course of all 
+students. 
+Input: 
+Output: 
+[58, Intro to Computer Science] 
+[79, Principles of computing] 
+[58, Computer science 101] 
+[79, Computational Thinking for Problem Solving] 
+[63, Computational Thinking for Problem Solving] 
+[49, Computer science 101] 
+[58, 49]: Computer science 101 
+[63, 79]: Computational Thinking for Problem Solving 
+[79, 58]: 
+[63, 49]: 
+3. Coding2 
+In college, every course has a prerequisite course, you can find the relation of each course in 
+the input,  pls return the middle course the student should take. If you have even total 
+courses, return the first middle course. 
+The first coure is the prerequisite of the second course. Take [Intro to Computer Science, 
+Computer science 101] for example, if you want to take Computer science 101, you must 
+f
+ inish Intro to Computer Science firstly.  
+Input: 
+Output: 
+[Intro to Computer Science, Computer science 101]; 
+[Data Structures, Algorithms]; 
+[Programming, Operating Systems]; 
+[Computer science 101, Data Structures]; 
+[Algorithms, Programming] 
+Data Structures; 
+
+Apple-4: 
+
+1. Introduce yourself 
+2. coding: merge intervals 
+3. why using List list = new ArrayList 
+4. what is method generic 
+5. resume questions  
+6. mongodb exp 
+7. why Mongolian 
+8. aws exp
+
+Apple-5: 
+
+1. introduce myself 
+2. exp from the previous project 
+3. explaining specific application components on my resume and how they work in the flow. 
+4. Spring exp 
+5. Spring DI - and how do we implement let's say a Car class with type of Tesla and Ford; 
+methods of start and end 
+6. Spring AOP exp 
+7. Spring AOP advice, before, after, joinpoint 
+8. Java collections and when you use them 
+9. HashMap, hashtable and hashing 
+10. How to iterate a collection 
+11. Multithreading executable, how to optimize? 
+12. Exp on MongoDB, how to handle multiple updates 
+13. data size and how to optimize the read and write? 
+14. coding question: Input "aabccc" output "a2b1c3" => then "aabcccabc" to "a2b1c3a1b1c1"
+
+Apple-6:
+
+1. self intro && previous project 
+2. cache experience in apple  
+3. cassandra experience in walmart  
+4. what is partition key for in cassandra 
+5. what is clustering column in cassandra  
+6. given a cassandra table with primary key as last name, how to query based on first name 
+7. how many nodes do you have for your cassandra db 
+8. coding: given a string “a##b”, each “#” consider a deletion of one character before #. so the 
+output in this case will be “b”. 
+
+Apple-7:
+
+1. self intro && previous project 
+2. What have you done in the team? web app development or something else  
+3. any database development on model?  
+4. What database have you used?  
+5. what is the traffic volume is in your project  
+6. what is the delay for your API 
+7. what are the things cost that delay 
+8. have you met any situation with a slow API  
+9. How do you fix it?  
+10. coding: import java.io.; 
+import java.util.; 
+/* 
+*. Exercise-1: Create List of persons, print the object by sorting on . 
+firstname 
+Exercise-2: Put persons list into personDept Map and do couple of 
+looks up by Person object 
+∗/ 
+∗/ 
+class Solution { 
+public static void main(String [] args) { 
+} 
+} 
+class Person{ 
+private String name: 
+private int age: 
+private String state: 
+} 
+class Dept { 
+private String name: 
+private int id: 
+} 
+11. git cmd 
+12. how to check out via git cmd  
+13. maven lifecycle  
+14. how to skip test via maven cmd  
+15. difference between maven compile vs install  
+16. where do you store log  
+17. How do you query splunk logs? 
+
+Apple-8(On-site): 
+
+1. self intro && previous project 
+2. How do you handle metrics in your project? What are those metrics for?  
+3. How do you monitor high latency for your rest api?  
+4. How do you handle high latency?  
+5. Why Cassandra?  
+6. what is partition key/clustering key for in Cassandra 
+7. Can the partition key in Cassandra consist of multiple columns? What's the purpose for that? 
+8. In DB, if we need a field for order id, what data type should we use?  
+9. What if we cannot use UUID for order id?  
+10. What if int is not big enough for a unique order id?  
+11. what if we use zookeeper to keep global unique order id, what is the pro and cons?  
+12. Coding: two sum
+
+Apple-9: 
+
+1. self intro && previous project 
+2. how good are you in mongoDB  
+3. are you familiar with any annotation-driven development with MongoDB  
+4. Have you written mongoDB native aggregation query?  
+5. Coding: 
+input: Array of sorted integers   
+output: Rearrange max/min in tandem/alternating     
+Example:   
+Input: {200, 312, .344, 422, 543, 678, 723}   
+Output: {723, .200, .678, .312, .543, .344, 422}   
+6. mongoDB design: given a 10GB file, each line is a json document, how to insert it to 
+mongoDB? 
+
+Apple-10:
+
+1. self intro && previous experience  
+2. How are you going to design an API for getting employees based on employee ID?  
+3. (follow up) Where are you going to start from for this design?  
+4. (follow up) How are you going to connect databases in your spring boot project? 
+5. (follow up) how are you going to connect to database with different data source, such as 
+postgreSQL and MongoDB 
+6. (follow up) Say we have a couple of requests sending for the above business, one sent to 
+MongoDB, one sent to PostgreSQL, another sent to another service, how are you going to do 
+it?  
+7. (follow up) If you are going async, how are you going to do it in spring boot?  
+8. (follow up) if you are using CompletableFuture, how are you going to execute them?  
+9. (follow up) if you need to chain those CompletableFuture up, how are you going to do it?  
+10. Coding: given a list of string, i.e. “Max Tong”, “John Doe”, returns a map where the key is first 
+name and value is last name.  
+11. Coding: given a BinarySearchTree root and a target value,, return a list of integers which 
+contains all the values for you to go through from root to target.  
+12. Coding: Given a 2d string array, where [“Fruit”, “Apple”],  [“Fruit”, “Banana”],  [“Fruit”, “Orange”],  
+[“Car”, “Ford”], [“Car”, “BMW”], [“Car”, “Mercede”], return a map where key is the category and 
+value is list of all real items. 
+
+Apple-11:
+
+1. self intro && previous project 
+2. What’s your latest tech stack for?  
+3. What’s your experience in AWS?  
+4. If we have an on-premise server, if the server is running slow, what could be the problem?  
+5. How do you solve it?  
+6. What kind of sql query will be slow queries?  
+7. How do you identify it?  
+8. Coding: given a string “red blue  green  yellow black”, return a map of color - frequency of 
+color 
+9. (follow up) Coding: sort the map based on value  
+10. self intro && previous project 
+11. What's your experience in sql database?  
+12. What’s your experience in mongoDB?  
+13. What’s your experience in kafka?  
+14. Coding: given String “[[1,2,3], [4,5,6]], return a list of lists of Strings 
+15. Coding: in sql database, given a lecture table, student table and registration table, return a list 
+of lectures with number of students registered. Please include those lectures in which no 
+one registered. 
+
+Apple-12:
+
+1. self intro 
+2. project techstacks 
+3. your responsibility 
+4. messaging system advantage 
+5. java version used 
+6. springboot version 
+7. arraylist vs linked list
+
+Apple-13:
+
+1. self intro 
+2. tell me your spring exp 
+3. why spring boot  
+4. what the java version you used  
+5. what spring version you used 
+6. what spring boot version you used 
+7. you said you used java 17 have you used mono / webflux 
+8. what is reactive programming 
+9. why message queue  
+10. advantage of rest api 
+11. disadvantage of rest api  
+12. how many regions do your application deploy to  
+13. how does data center do disaster recovery from one region to another region  
+14. why RDS in aws 
+15. how does RDS do disaster recovery from one region to another region 
+16. where does the RDS snapshot store  
+17. how do you use RDS snapshot to recover RDS db 
+18. how does s3 backup data 
+19. your cicd pipeline  
+20. what tools you used daily 
+21. how did you deploy to production  
+
+Apple-14:
+
+1. self intro 
+2. spring boot features 
+3. bean scope 
+4. static keyword 
+5. HashMap vs HashTable 
+6. StringBuffer vs StringBuilder 
+7. Redis Cache 
+8. Kafka Architecture 
+9. BFS 
+10. How to create Graph 
+11. no sql database 
+
+Apple-15:
+
+1. Bean scope  
+2. Profile 
+3. Hash table vs hash map 
+4. Arraylist vs linkedlist 
+5. Design pattern - Singleton 
+6. Nodal experience 
+7. Elastic Search: Must vs Should  
+8. Reflection 
+9. Kakfa
+
+Apple-16:
+
+1. Coding: giving “aabbccd” return “a2b2c2d1” 
+2. any corner cases you would consider ?  
+3. what if input is “a11” what’s the output  
+4. how do we handle these cases 
+
+Apple-17:
+
+1. self intro 
+2. kafka experience 
+3. bean scope 
+4. junit 
+5. java version 
+6. java 21 features 
+7. python experience
+
+Apple-18:
+
+1. self intro 
+2. MongoDB experience 
+3. how do you do sharding 
+4. How does elastic search work? 
+5. REST API, how to fix slow response problem 
+6. how to read the data from a large file efficiently 
+7. SQL: join, group by and count
+
+Apple-19:
+
+1. self intro 
+2. how to scale API 
+3. Coding: given an array and integer K, return num of the subarray whose sum is k
+
+Apple-20:
+
+1. self intro 
+2. project related questions 
+3. batch process experience 
+4. why batch process 
+5. elastic search experience, what problems, how to fix? 
+6. why latency using elastic search 
+7. Coding: Find longest common prefix in an array of strings.
+
+Apple-21:
+
+1. Introduce yourself 
+2. Coding: return total stock profolio value given a csv file contains stock names and their 
+quantities 
+3. Elasticsearch experience 
+4. How do you handle high concurrency 
+5. Have you used CompletableFuture 
+6. What thread pool have you used in your projects 
+7. Difference betw HashMap and ConcurrentHashMap 
+8. Difference betw ArrayList and LinkedList 
+Interview#2 
+9. What did your last project end 
+10. SDLC steps 
+11. How do you design RESTful APIs to get/create/update an object 
+12. Multithreading experience 
+13. When and why use multithreading 
+14. How do you handle race condition 
+15. Design the locking schema so that when a thread call method1(), it needs to until some other 
+thread call method2() 
+16. Fail fast vs fail safe 
+17. Coding: Traverse binary tree in level order 
+18. Method override vs method overload 
+19. Sort a map by values 
+20. Explain how circuit breaker works
+
